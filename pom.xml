@@ -58,6 +58,7 @@
            <configuration>
            <systemPropertyVariables>
            <Browser>${browser}
+             
            </Browser>
            </systemPropertyVariables>
            </configuration>
