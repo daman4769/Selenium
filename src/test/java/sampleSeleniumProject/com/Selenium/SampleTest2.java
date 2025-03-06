@@ -60,6 +60,7 @@ public void SelectMultipleDropDown() throws IOException {
 	WebElement noofpeople = driver.findElement(By.id("Form_getForm_NoOfEmployees"));
 	selectDropdown(Country, getPropertiesValues("country"));
 	selectDropdown(noofpeople, "11 - 50");
+	driver.close();
 }
 
 
@@ -115,5 +116,6 @@ public void selectDropDown() {
 	driver.findElement(By.id("justAnInputBox")).click();
 	List<WebElement> list =  driver.findElements(By.xpath("//span[@class=\"comboTreeItemTitle\"]"));
 	selectFromJquaryDropdown(list,"choice 2 2");
+	driver.close();
 }
 }

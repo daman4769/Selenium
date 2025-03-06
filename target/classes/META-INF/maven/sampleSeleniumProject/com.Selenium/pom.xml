@@ -31,6 +31,7 @@
     <artifactId>testng</artifactId>
     <version>7.11.0</version>
     <scope>test</scope>
+  
 </dependency>
 
     	<dependency>
@@ -60,11 +61,11 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.3.0</version>
-           <configuration>
-           <systemPropertyVariables>
-           >
-           </systemPropertyVariables>
-           </configuration>
+          <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>testng.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
