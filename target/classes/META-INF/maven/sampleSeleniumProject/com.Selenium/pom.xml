@@ -33,7 +33,12 @@
     <scope>test</scope>
 </dependency>
 
-  </dependencies>
+    	<dependency>
+    		<groupId>com.selenium.interview</groupId>
+    		<artifactId>interviewprep</artifactId>
+    		<version>0.0.1-SNAPSHOT</version>
+    	</dependency>
+    </dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -57,9 +62,7 @@
           <version>3.3.0</version>
            <configuration>
            <systemPropertyVariables>
-           <Browser>${browser}
-             
-           </Browser>
+           >
            </systemPropertyVariables>
            </configuration>
         </plugin>

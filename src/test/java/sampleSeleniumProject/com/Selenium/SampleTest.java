@@ -15,10 +15,10 @@ import prpoeties.utilits;
 public class SampleTest extends utilits{
 WebDriver driver;
 
-@Parameters("Browser")
+
 @Test
-public void setup(String browser) throws IOException {
-	
+public void setup() throws IOException {
+	String browser = getPropertiesValues("browser");
 	if(browser.equalsIgnoreCase("chrome")) {
 		driver = new ChromeDriver();
 		
@@ -29,6 +29,7 @@ public void setup(String browser) throws IOException {
 	String expectedtitle =driver.getTitle();
 	Assert.assertEquals(expectedtitle , "Welcome to careers at Cognizant | Cognizant Careers","Title not matching");
 	System.out.println("Aman Deep");
+	driver.navigate().to("https://careers.cognizant.com/india-en/");
     driver.close();
 }
 }

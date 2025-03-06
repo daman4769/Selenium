@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sampleSeleniumProject.com.Selenium.TestClass">
+      <class name="sampleSeleniumProject.com.Selenium.SampleTest2">
         <methods>
-          <include name="setup"/>
+          <include name="SelectInBootStrapDropDown"/>
+          <include name="ScroleTest"/>
+          <include name="SelectMultipleDropDown"/>
         </methods>
-      </class> <!-- sampleSeleniumProject.com.Selenium.TestClass -->
+      </class> <!-- sampleSeleniumProject.com.Selenium.SampleTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
