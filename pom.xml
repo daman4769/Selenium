@@ -34,11 +34,7 @@
   
 </dependency>
 
-    	<dependency>
-    		<groupId>com.selenium.interview</groupId>
-    		<artifactId>interviewprep</artifactId>
-    		<version>0.0.1-SNAPSHOT</version>
-    	</dependency>
+    	
     </dependencies>
 
   <build>
@@ -58,15 +54,16 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
         </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.3.0</version>
-          <configuration>
-                <suiteXmlFiles>
-                    <suiteXmlFile>testng.xml</suiteXmlFile>
-                </suiteXmlFiles>
-            </configuration>
-        </plugin>
+       <plugin>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.3.0</version>
+    <configuration>
+        <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+        </suiteXmlFiles>
+    </configuration>
+</plugin>
+
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.4.2</version>

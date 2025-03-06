@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-02T14:39:21 IST" name="Surefire suite" finished-at="2025-03-02T14:39:29 IST" duration-ms="8560">
+  <suite started-at="2025-03-06T20:15:31 IST" name="Suite" finished-at="2025-03-06T20:16:12 IST" duration-ms="40827">
     <groups>
     </groups>
-    <test started-at="2025-03-02T14:39:21 IST" name="Surefire test" finished-at="2025-03-02T14:39:29 IST" duration-ms="8560">
+    <test started-at="2025-03-06T20:15:31 IST" name="Test" finished-at="2025-03-06T20:16:12 IST" duration-ms="40827">
       <class name="sampleSeleniumProject.com.Selenium.SampleTest">
-        <test-method signature="setup(java.lang.String)[pri:0, instance:sampleSeleniumProject.com.Selenium.SampleTest@27ae2fd0]" started-at="2025-03-02T14:39:21 IST" name="setup" finished-at="2025-03-02T14:39:29 IST" duration-ms="8503" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="setup()[pri:0, instance:sampleSeleniumProject.com.Selenium.SampleTest@20deea7f]" started-at="2025-03-06T20:16:06 IST" name="setup" finished-at="2025-03-06T20:16:12 IST" duration-ms="6513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
       </class> <!-- sampleSeleniumProject.com.Selenium.SampleTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      <class name="sampleSeleniumProject.com.Selenium.SampleTest2">
+        <test-method signature="ScroleTest()[pri:0, instance:sampleSeleniumProject.com.Selenium.SampleTest2@16ec5519]" started-at="2025-03-06T20:15:31 IST" name="ScroleTest" finished-at="2025-03-06T20:15:44 IST" duration-ms="12242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScroleTest -->
+        <test-method signature="SelectInBootStrapDropDown()[pri:0, instance:sampleSeleniumProject.com.Selenium.SampleTest2@16ec5519]" started-at="2025-03-06T20:15:44 IST" name="SelectInBootStrapDropDown" finished-at="2025-03-06T20:15:53 IST" duration-ms="9475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectInBootStrapDropDown -->
+        <test-method signature="SelectMultipleDropDown()[pri:0, instance:sampleSeleniumProject.com.Selenium.SampleTest2@16ec5519]" started-at="2025-03-06T20:15:53 IST" name="SelectMultipleDropDown" finished-at="2025-03-06T20:16:01 IST" duration-ms="7819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectMultipleDropDown -->
+        <test-method signature="selectDropDown()[pri:0, instance:sampleSeleniumProject.com.Selenium.SampleTest2@16ec5519]" started-at="2025-03-06T20:16:01 IST" name="selectDropDown" finished-at="2025-03-06T20:16:06 IST" duration-ms="4729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropDown -->
+      </class> <!-- sampleSeleniumProject.com.Selenium.SampleTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
