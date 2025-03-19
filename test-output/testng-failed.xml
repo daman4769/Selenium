@@ -5,9 +5,8 @@
     <classes>
       <class name="sampleSeleniumProject.com.Selenium.SampleTest2">
         <methods>
-          <include name="SelectInBootStrapDropDown"/>
-          <include name="ScroleTest"/>
-          <include name="SelectMultipleDropDown"/>
+          <include name="tearDown"/>
+          <include name="keyBordAction"/>
         </methods>
       </class> <!-- sampleSeleniumProject.com.Selenium.SampleTest2 -->
     </classes>
